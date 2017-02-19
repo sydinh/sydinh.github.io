@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Online CV - Sy Dinh</title>
+        <title>CV | Sy Dinh</title>
         <link rel="icon" href="favicon.png">
         <link href="https://fonts.googleapis.com/css?family=Chewy|Josefin+Slab" rel="stylesheet">
         <style>
@@ -23,13 +23,29 @@
                 display: table-cell;
                 vertical-align: middle;
                 text-align: center;
+                background: rgba(0, 0, 0, 0.6);
             }
             h2 {
                 color: #fff;
-                font-size: 86px;
+                font-size: 60px;
                 font-family: 'Chewy', cursive;
+                margin-bottom: 20px;
                 letter-spacing: 5px;
                 text-transform: uppercase;
+            }
+            h2::after {
+                display: block;
+                content: '';
+                width: 200px;
+                height: 1px;
+                margin: 0 auto;
+                background: #4CAF50;
+            }
+            #countdowntimer {
+                color: #fff;
+                font-size: 36px;
+                font-family: 'Josefin Slab', serif;
+                letter-spacing: 1.5px;
             }
             .logo {
                 position: absolute;
@@ -58,14 +74,46 @@
     <body>
         <div class="wrapper">
             <div class="logo">
-                <h1>Online CV</h1>
+                <h1><a href="index.html">Online CV</a></h1>
             </div><!-- /logo -->
             <div class="inner">
                 <h2>Coming Soon</h2>
+                <h4 id="countdowntimer"></h4>
             </div><!-- /inner -->
             <div class="copyright">
                 <p>Copyright by&nbsp;<a href="http://syinc.net/" target="_blank"><em>SyInc.Net</em></a></p>
             </div><!-- /copyright -->
         </div>
+        <!-- js of count down timer -->
+        <script>
+            // Set the date we're counting down to
+            var countDownDate = new Date("Mar 31, 2017 15:37:25").getTime();
+
+            // Update the count down every 1 second
+            var countdownfunction = setInterval(function() {
+
+                // Get todays date and time
+                var now = new Date().getTime();
+                
+                // Find the distance between now an the count down date
+                var distance = countDownDate - now;
+                
+                // Time calculations for days, hours, minutes and seconds
+                var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                
+                // Output the result in an element with id="demo"
+                document.getElementById("countdowntimer").innerHTML = days + "d " + hours + "h "
+                + minutes + "m " + seconds + "s ";
+                
+                // If the count down is over, write some text 
+                if (distance < 0) {
+                    clearInterval(countdownfunction);
+                    document.getElementById("countdowntimer").innerHTML = "EXPIRED";
+                }
+            }, 1000);
+        </script>
     </body>
 </html>
