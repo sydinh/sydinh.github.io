@@ -1,1 +1,1 @@
-#### Check it out [https://sydinh.github.io](https://sydinh.github.io)
+Code created by ``Sy Dinh``
