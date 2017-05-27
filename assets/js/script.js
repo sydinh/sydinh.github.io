@@ -1,6 +1,6 @@
 $(function() {
   $('.countdown').countdown({
-    date: "May 31, 2017 23:59:59"
+    date: "June 31, 2017 23:59:59"
   });
 
   $(".skype-link").hover(function () {
