@@ -151,7 +151,8 @@ main {
   height: 100%;
   background: rgba(0, 0, 0, 0.8);
   overflow-x: hidden;
-  transition: 0.5s;
+  transform: translateX(450px);
+  transition: transform .5s;
 }
 
 .trigger-content .close-trigger-content {
@@ -268,12 +269,14 @@ main {
 }
 
 .trigger-content.trigger-width {
-  width: 30%;
+  width: 450px;
+  transform: translateX(0);
 }
 
 @media screen and (max-width: 800px) {
   .trigger-content.trigger-width {
-    width: 50%;
+    width: 600px;
+    transform: translateX(0);
   }
 }
 
