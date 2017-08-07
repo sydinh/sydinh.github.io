@@ -55,7 +55,7 @@ main {
   transition: all 0.2s ease-in-out;
 }
 
-#icons li:nth-child(1) .fa:hover {
+/* #icons li:nth-child(1) .fa:hover {
   color: #1c79b2;
 }
 
@@ -81,7 +81,7 @@ main {
 
 #icons li:nth-child(7) .fa:hover {
   color: #2196F3;
-}
+} */
 
 #icons li .skype {
   display: none;
