@@ -1,3 +1,1 @@
-Code created by ``Sy Dinh``
-
-Check it out.
+[https://sydinh.io](https://sydinh.github.io/)

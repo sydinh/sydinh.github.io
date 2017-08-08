@@ -4,7 +4,7 @@ $(function() {
   });
 
   $('.skype-link').hover(function () {
-      $('.skype').toggleClass('skype-visible');
+    $('.skype').toggleClass('skype-visible');
   });
 });
 
