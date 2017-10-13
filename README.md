@@ -1,4 +1,3 @@
 # sydinh.github.io
-Hi, I'm Sy - a Viet Nam based software engineer. You can find me on Twitter or GitHub. Visit my about page to find out more about me.
 
-![Sy Dinh](https://avatars2.githubusercontent.com/u/25724537?v=4&s=400)
+![Sy Dinh](https://scontent.fsgn2-2.fna.fbcdn.net/v/t31.0-8/22291217_620543415002390_7630224138271115571_o.jpg?oh=65346d935115316b3ffacb21b72e087b&oe=5A70AEDE)
