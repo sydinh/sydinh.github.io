@@ -15,10 +15,6 @@ body {
   background-size: cover;
 }
 
-.logo__link {
-  display: inline-block;
-}
-
 .intro__title {
   font-family: 'Chewy', cursive;
 }
