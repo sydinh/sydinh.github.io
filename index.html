@@ -1,46 +1,115 @@
+<!-- HTML5 -->
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Sy Dinh - Portfolio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
-    <link rel="stylesheet" href="assets/css/main.css">
-  </head>
-  <body>
-    <div class="wrapper">
-      <main role="main">
-        <section class="logo">
-          <h1 class="logo__title"><img src="assets/img/img-logo.png" class="logo__img img-fluid" alt="Logo" /></h1>
-        </section>
-        <section class="intro">
-          <h2 class="intro__title">I'm working hard, I'll be ready to launch in...</h2>
-        </section>
-        <section class="counter">
-          <h2 class="counter__content countdown"></h2>
-        </section>
-        <section class="contacts">
-          <a class="contacts__text" href="https://vn.linkedin.com/in/sydinh" target="_blank">
-            <i class="contacts__icon fa fa-linkedin-square fa-3x" aria-hidden="true"></i>
-          </a>
-          <a class="contacts__text" href="https://github.com/sydinh" target="_blank">
-            <i class="contacts__icon fa fa-github-square fa-3x" aria-hidden="true"></i>
-          </a>
-          <a class="contacts__text" href="https://www.facebook.com/sydinhhiep/about" target="_blank">
-            <i class="contacts__icon fa fa-facebook-square fa-3x" aria-hidden="true"></i>
-          </a>
-          <a class="contacts__text" href="https://twitter.com/sydinhhiep" target="_blank">
-            <i class="contacts__icon fa fa-twitter-square fa-3x" aria-hidden="true"></i>
-          </a>
-          <a class="contacts__text" href="https://www.instagram.com/sydinhhiep" target="_blank">
-            <i class="contacts__icon fa fa-instagram fa-3x" aria-hidden="true"></i>
-          </a>
-        </section>
-      </main>
-    </div>
-    <script async src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script async src="assets/js/jquery.countdown.js"></script>
-    <script async src="assets/js/main.js"></script>
-  </body>
+
+<head>
+  <!-- Set character encoding for the document -->
+  <meta charset="utf-8">
+  <!-- Viewport for responsive web design -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Meta description -->
+  <meta name="description" content="about page">
+  <!-- Document title -->
+  <title>Sy Dinh - Portfolio</title>
+  <!-- Recommended favicon format -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <!-- Web app manifest -->
+  <link rel="manifest" href="manifest.json">
+  <!-- Link to Google font -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" crossorigin="anonymous">
+  <!-- Link to external CSS file -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <!-- Link to external CSS file -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Adding in-document CSS -->
+  <style>
+    figure {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      z-index: 1;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: 0;
+      padding: 5px;
+      color: darkorange;
+    }
+
+    svg {
+      fill: currentColor;
+    }
+
+    figcaption {
+      padding-left: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <noscript>
+    <figure>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+        <path d="M0 0h24v24H0z" fill="none" />
+        <path d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z" />
+      </svg>
+      <figcaption>
+        Oh no! My About page is using JavaScript to implement some cool features. Please, enable JavaScript to see how all things work.
+      </figcaption>
+    </figure>
+  </noscript>
+  <main class="main" role="main">
+    <h1>
+      <img src="images/logo.png" alt="My logo" />
+    </h1>
+    <h2 class="intro">I'm working hard, I'll be ready to launch in...</h2>
+    <h2 class="counter js-countdown"></h2>
+    <nav class="contact">
+      <a class="contact__container" href="https://vn.linkedin.com/in/sydinh" title="linkedin" target="_blank" rel="noopener">
+        <i class="contact__icon fa fa-linkedin-square fa-3x" aria-hidden="true"></i>
+      </a>
+      <a class="contact__container" href="https://github.com/sydinh" title="github" target="_blank" rel="noopener">
+        <i class="contact__icon fa fa-github-square fa-3x" aria-hidden="true"></i>
+      </a>
+      <a class="contact__container" href="https://www.facebook.com/sydinhhiep/about" title="facebook" target="_blank" rel="noopener">
+        <i class="contact__icon fa fa-facebook-square fa-3x" aria-hidden="true"></i>
+      </a>
+      <a class="contact__container" href="https://twitter.com/sydinhhiep" title="twitter" target="_blank" rel="noopener">
+        <i class="contact__icon fa fa-twitter-square fa-3x" aria-hidden="true"></i>
+      </a>
+      <a class="contact__container" href="https://www.instagram.com/sydinhhiep" title="instagram" target="_blank" rel="noopener">
+        <i class="contact__icon fa fa-instagram fa-3x" aria-hidden="true"></i>
+      </a>
+    </nav>
+  </main>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120933501-1"></script>
+  <!-- Link to external JS file -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script>
+  <!-- Link to external JS file -->
+  <script src="script.js"></script>
+  <!-- Google Analytics -->
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-120933501-1');
+  </script>
+  <!-- Adding in-document JS -->
+  <script>
+    // ECMAScript 6 is partially supported in all browsers.
+    const countdown = '.js-countdown';
+    const day = 30;
+    const month = 'JUN';
+    const year = 2018;
+    const time = '23:59:59';
+    const date = `${month} ${day}, ${year} ${time}`;
+    $(function () {
+      $(countdown).countdown({ date });
+    });
+  </script>
+</body>
+
 </html>

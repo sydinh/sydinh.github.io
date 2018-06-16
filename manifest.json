@@ -1,0 +1,16 @@
+// https://developers.google.com/web/fundamentals/web-app-manifest/
+
+{
+  "short_name": "About Page",
+  "name": "About Page",
+  "icons": [
+    {
+      "src": "images/favicon.png",
+      "type": "image/png",
+      "sizes": "32x32"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#fff",
+  "display": "standalone"
+}
