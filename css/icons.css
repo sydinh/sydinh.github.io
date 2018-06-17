@@ -1,8 +1,10 @@
 @charset "utf-8";
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/@charset */
+/* font-display: auto; https://developers.google.com/web/updates/2016/02/font-display */
 
 @font-face {
   font-family: 'sydinh';
+  font-display: auto;
   src: url('../fonts/sydinh.eot?8rnfrr');
   src: url('../fonts/sydinh.eot?8rnfrr#iefix') format('embedded-opentype'),
     url('../fonts/sydinh.ttf?8rnfrr') format('truetype'),
