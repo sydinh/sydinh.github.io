@@ -3,11 +3,11 @@
 
 @font-face {
   font-family: 'sydinh';
-  src: url('fonts/sydinh.eot?8rnfrr');
-  src: url('fonts/sydinh.eot?8rnfrr#iefix') format('embedded-opentype'),
-    url('fonts/sydinh.ttf?8rnfrr') format('truetype'),
-    url('fonts/sydinh.woff?8rnfrr') format('woff'),
-    url('fonts/sydinh.svg?8rnfrr#sydinh') format('svg');
+  src: url('../fonts/sydinh.eot?8rnfrr');
+  src: url('../fonts/sydinh.eot?8rnfrr#iefix') format('embedded-opentype'),
+    url('../fonts/sydinh.ttf?8rnfrr') format('truetype'),
+    url('../fonts/sydinh.woff?8rnfrr') format('woff'),
+    url('../fonts/sydinh.svg?8rnfrr#sydinh') format('svg');
   font-weight: normal;
   font-style: normal;
 }
