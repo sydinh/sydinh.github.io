@@ -8,7 +8,9 @@
   <!-- Viewport for responsive web design -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Meta description -->
-  <meta name="description" content="about page">
+  <meta name="description" content="Sy Dinh - Portfolio">
+  <!-- Address Bar Matches Brand Colors - https://developers.google.com/web/tools/lighthouse/audits/address-bar -->
+  <meta name="theme-color" content="#42f471" />
   <!-- Document title -->
   <title>Sy Dinh - Portfolio</title>
   <!-- Recommended favicon format -->
@@ -16,7 +18,7 @@
   <!-- Web app manifest -->
   <link rel="manifest" href="manifest.json">
   <!-- Link to external CSS file - synchronous stylesheet -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
   <!-- Link to external CSS file - synchronous stylesheet -->
   <link rel="stylesheet" href="css/style.css">
   <!-- Link to external CSS file - synchronous stylesheet -->
@@ -83,12 +85,16 @@
       </a>
     </nav>
   </main>
+
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120933501-1"></script>
+
   <!-- Link to external JS file -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
   <!-- Link to external JS file -->
   <script src="js/script.js"></script>
+
   <!-- Google Analytics -->
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -97,6 +103,23 @@
 
     gtag('config', 'UA-120933501-1');
   </script>
+
+  <!-- Service Worker -->
+  <script>
+    // Register A service worker
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function () {
+        navigator.serviceWorker.register('service-worker.js').then(function (registration) {
+          // Registration was successful
+          console.log('ServiceWorker registration successful with scope: ', registration.scope);
+        }, function (err) {
+          // registration failed
+          console.log('ServiceWorker registration failed: ', err);
+        });
+      });
+    }
+  </script>
+
   <!-- Adding in-document JS -->
   <script>
     // ECMAScript 6 is partially supported in all browsers.
