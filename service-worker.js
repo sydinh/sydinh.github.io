@@ -1,20 +1,19 @@
-// service-workers: https://developers.google.com/web/fundamentals/primers/service-workers/
 const CACHE_NAME = 'sydinh-dot-com-cache-v1';
 
 const JS = 'js';
 const CSS = 'css';
 const styleCSS = `${CSS}/style.css`;
 const iconsCSS = `${CSS}/icons.css`;
+const jqueryJS = `${JS}/jquery-3.3.1.min.js`;
 const scriptJS = `${JS}/script.js`;
 
-const urlsToCache = [styleCSS, iconsCSS, scriptJS];
+const urlsToCache = [styleCSS, iconsCSS, jqueryJS, scriptJS];
 
 // Install a service worker
 self.addEventListener('install', function(event) {
   // Perform install steps
   event.waitUntil(
     caches.open(CACHE_NAME).then(function(cache) {
-      console.log('Opened cache');
       return cache.addAll(urlsToCache);
     }),
   );
