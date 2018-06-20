@@ -1,6 +1,7 @@
 {
   "short_name": "Sy Dinh",
   "name": "Sy Dinh - Portfolio",
+  "description": "My about page",
   "icons": [
     {
       "src": "images/icon-512.png",
@@ -13,9 +14,15 @@
       "sizes": "192x192"
     }
   ],
-  "start_url": "/",
+  "scope": "/",
+  "start_url": "/index.html",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#3367D6",
-  "theme_color": "#42f471"
+  "theme_color": "#42f471",
+  "serviceworker": {
+    "src": "service-worker-registration.js",
+    "scope": "/",
+    "update_via_cache": "none"
+  }
 }

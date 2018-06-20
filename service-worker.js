@@ -4,8 +4,8 @@ const JS = 'js';
 const CSS = 'css';
 const styleCSS = `${CSS}/style.css`;
 const iconsCSS = `${CSS}/icons.css`;
-const jqueryJS = `${JS}/jquery-3.3.1.min.js`;
 const scriptJS = `${JS}/script.js`;
+const jqueryJS = `${JS}/jquery.min.js`;
 
 const urlsToCache = [styleCSS, iconsCSS, jqueryJS, scriptJS];
 
