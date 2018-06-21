@@ -14,15 +14,15 @@
       "sizes": "192x192"
     }
   ],
-  "scope": "/",
-  "start_url": "/index.html",
+  "scope": ".",
+  "start_url": "./index.html",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#3367D6",
   "theme_color": "#42f471",
   "serviceworker": {
     "src": "service-worker-registration.js",
-    "scope": "/",
+    "scope": ".",
     "update_via_cache": "none"
   }
 }

@@ -2,7 +2,7 @@
 if ('serviceWorker' in navigator) {
   // ServiceWorker registration in progress.
   window.addEventListener('load', function() {
-    navigator.serviceWorker.register('service-worker.js').then(
+    navigator.serviceWorker.register('service-worker-configuration.js').then(
       function(registration) {
         // Registration was successful
         console.log(

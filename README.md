@@ -1,6 +1,8 @@
 # About me
 
-## PWA links
+All in love
 
-* appmanifest: https://www.w3.org/TR/appmanifest/
-* service-workers: https://www.w3.org/TR/service-workers-1/
+## PWA Links
+
+1. manifest: https://www.w3.org/TR/appmanifest/
+2. service-workers: https://www.w3.org/TR/service-workers-1/
