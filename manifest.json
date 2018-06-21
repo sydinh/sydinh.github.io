@@ -15,219 +15,34 @@
   },
   "icons": [
     {
-      "src": "images/icon-watch/icon-48.png",
+      "src": "images/ic_launcher/res/mipmap-mdpi/ic_launcher.png",
       "type": "image/png",
       "sizes": "48x48"
     },
     {
-      "src": "images/icon-watch/icon-55.png",
-      "type": "image/png",
-      "sizes": "55x55"
-    },
-    {
-      "src": "images/icon-watch/icon-80.png",
-      "type": "image/png",
-      "sizes": "80x80"
-    },
-    {
-      "src": "images/icon-watch/icon-88.png",
-      "type": "image/png",
-      "sizes": "88x88"
-    },
-    {
-      "src": "images/icon-watch/icon-172.png",
-      "type": "image/png",
-      "sizes": "172x172"
-    },
-    {
-      "src": "images/icon-watch/icon-196.png",
-      "type": "image/png",
-      "sizes": "196x196"
-    },
-    {
-      "src": "images/icon-android/icon-36.png",
-      "type": "image/png",
-      "sizes": "36x36"
-    },
-    {
-      "src": "images/icon-android/icon-48.png",
-      "type": "image/png",
-      "sizes": "48x48"
-    },
-    {
-      "src": "images/icon-android/icon-72.png",
+      "src": "images/ic_launcher/res/mipmap-hdpi/ic_launcher.png",
       "type": "image/png",
       "sizes": "72x72"
     },
     {
-      "src": "images/icon-android/icon-96.png",
+      "src": "images/ic_launcher/res/mipmap-xhdpi/ic_launcher.png",
       "type": "image/png",
       "sizes": "96x96"
     },
     {
-      "src": "images/icon-android/icon-144.png",
+      "src": "images/ic_launcher/res/mipmap-xxhdpi/ic_launcher.png",
       "type": "image/png",
       "sizes": "144x144"
     },
     {
-      "src": "images/icon-android/icon-192.png",
+      "src": "images/ic_launcher/res/mipmap-xxxhdpi/ic_launcher.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "images/icon-android/icon-512.png",
+      "src": "images/ic_launcher/web_hi_res_512.png",
       "type": "image/png",
       "sizes": "512x512"
-    },
-    {
-      "src": "images/icon-ios/icon-16.png",
-      "type": "image/png",
-      "sizes": "16x16"
-    },
-    {
-      "src": "images/icon-ios/icon-20.png",
-      "type": "image/png",
-      "sizes": "20x20"
-    },
-    {
-      "src": "images/icon-ios/icon-29.png",
-      "type": "image/png",
-      "sizes": "29x29"
-    },
-    {
-      "src": "images/icon-ios/icon-32.png",
-      "type": "image/png",
-      "sizes": "32x32"
-    },
-    {
-      "src": "images/icon-ios/icon-40.png",
-      "type": "image/png",
-      "sizes": "40x40"
-    },
-    {
-      "src": "images/icon-ios/icon-48.png",
-      "type": "image/png",
-      "sizes": "48x48"
-    },
-    {
-      "src": "images/icon-ios/icon-50.png",
-      "type": "image/png",
-      "sizes": "50x50"
-    },
-    {
-      "src": "images/icon-ios/icon-55.png",
-      "type": "image/png",
-      "sizes": "55x55"
-    },
-    {
-      "src": "images/icon-ios/icon-57.png",
-      "type": "image/png",
-      "sizes": "57x57"
-    },
-    {
-      "src": "images/icon-ios/icon-58.png",
-      "type": "image/png",
-      "sizes": "58x58"
-    },
-    {
-      "src": "images/icon-ios/icon-60.png",
-      "type": "image/png",
-      "sizes": "60x60"
-    },
-    {
-      "src": "images/icon-ios/icon-64.png",
-      "type": "image/png",
-      "sizes": "64x64"
-    },
-    {
-      "src": "images/icon-ios/icon-72.png",
-      "type": "image/png",
-      "sizes": "72x72"
-    },
-    {
-      "src": "images/icon-ios/icon-76.png",
-      "type": "image/png",
-      "sizes": "76x76"
-    },
-    {
-      "src": "images/icon-ios/icon-80.png",
-      "type": "image/png",
-      "sizes": "80x80"
-    },
-    {
-      "src": "images/icon-ios/icon-87.png",
-      "type": "image/png",
-      "sizes": "87x87"
-    },
-    {
-      "src": "images/icon-ios/icon-88.png",
-      "type": "image/png",
-      "sizes": "88x88"
-    },
-    {
-      "src": "images/icon-ios/icon-100.png",
-      "type": "image/png",
-      "sizes": "100x100"
-    },
-    {
-      "src": "images/icon-ios/icon-114.png",
-      "type": "image/png",
-      "sizes": "114x114"
-    },
-    {
-      "src": "images/icon-ios/icon-120.png",
-      "type": "image/png",
-      "sizes": "120x120"
-    },
-    {
-      "src": "images/icon-ios/icon-128.png",
-      "type": "image/png",
-      "sizes": "128x128"
-    },
-    {
-      "src": "images/icon-ios/icon-144.png",
-      "type": "image/png",
-      "sizes": "144x144"
-    },
-    {
-      "src": "images/icon-ios/icon-152.png",
-      "type": "image/png",
-      "sizes": "152x152"
-    },
-    {
-      "src": "images/icon-ios/icon-167.png",
-      "type": "image/png",
-      "sizes": "167x167"
-    },
-    {
-      "src": "images/icon-ios/icon-172.png",
-      "type": "image/png",
-      "sizes": "172x172"
-    },
-    {
-      "src": "images/icon-ios/icon-180.png",
-      "type": "image/png",
-      "sizes": "180x180"
-    },
-    {
-      "src": "images/icon-ios/icon-196.png",
-      "type": "image/png",
-      "sizes": "196x196"
-    },
-    {
-      "src": "images/icon-ios/icon-256.png",
-      "type": "image/png",
-      "sizes": "256x256"
-    },
-    {
-      "src": "images/icon-ios/icon-512.png",
-      "type": "image/png",
-      "sizes": "512x512"
-    },
-    {
-      "src": "images/icon-ios/icon-1024.png",
-      "type": "image/png",
-      "sizes": "1024x1024"
     }
   ]
 }
