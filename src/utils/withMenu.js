@@ -9,7 +9,7 @@ import React from 'react';
 import MenuBtn from 'components/MenuBtn';
 import Sidenav from 'components/Sidenav';
 
-const withMenu = (WrappedComponent) => {
+const withMenu = WrappedComponent => {
   class Menu extends React.Component {
     constructor() {
       super();
@@ -23,7 +23,7 @@ const withMenu = (WrappedComponent) => {
     }
 
     handleMenuBtnClick = () => {
-      this.setState((prevState) => {
+      this.setState(prevState => {
         return {
           isSidenavActive: !prevState.isSidenavActive,
         };
@@ -42,10 +42,7 @@ const withMenu = (WrappedComponent) => {
     render() {
       return (
         <React.Fragment>
-          <MenuBtn
-            onClick={this.handleMenuBtnClick}
-            close={this.state.isSidenavActive}
-          />
+          <MenuBtn onClick={this.handleMenuBtnClick} close={this.state.isSidenavActive} />
           <Sidenav active={this.state.isSidenavActive} />
           <WrappedComponent {...this.props} />
         </React.Fragment>
