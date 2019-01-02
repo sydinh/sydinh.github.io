@@ -11,29 +11,31 @@
     <title>Welcome To My Portfolio</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet" />
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <style>
-      html {
-        height: 100%;
-      }
-
       body {
         display: flex;
-        align-items: center;
+        flex-direction: column;
         justify-content: center;
-        min-height: 100%;
+        align-items: center;
+        min-height: calc(100vh - 30px);
         margin: 0;
-        background: #444;
-        font-size: 16px;
-        font-family: Open Sans, sans-serif;
-        font-weight: 300;
-        line-height: 1.5;
-        letter-spacing: 1.2px;
+        padding: 15px;
+        background: url('background.jpg') no-repeat;
+        background-size: cover;
+        color: #fff;
+        font-family: 'Raleway', sans-serif;
+        text-align: center;
+        letter-spacing: 1px;
+      }
+
+      h1 {
+        margin: 0 0 15px;
       }
 
       p {
-        color: #eece1a;
-        text-decoration: none;
+        margin: 0;
       }
     </style>
   </head>
@@ -44,6 +46,7 @@
         <a href="#">upgrade your browser</a> to improve your experience.
       </p>
     <![endif]-->
-    <p>Hi, I'm Sy Dinh</p>
+    <h1>Hello! This is Sy Dinh</h1>
+    <p>A front-end developer based in Viet Nam</p>
   </body>
 </html>
